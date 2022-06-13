@@ -6,7 +6,7 @@ configure_terminal: true
 configure_osx: true
 
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: true
+configure_dock: false
 dockitems_remove: []
 # - Launchpad
 # - TV
@@ -74,13 +74,15 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - google-chrome
-  - handbrake
-  - licecap
-  - sequel-ace
+#  - handbrake
+#  - licecap
+#  - sequel-ace
   - slack
-  - sublime-text
-  - transmit
+#  - sublime-text
+#  - transmit
   - vagrant
+  - vmware-horizon-client
+  - citrix-workspace
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
