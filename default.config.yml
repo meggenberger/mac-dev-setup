@@ -14,6 +14,10 @@ dockitems_remove:
   - TV
   - Podcasts
 # - 'App Store'
+  - Numbers
+  - Pages
+  - Keynote
+  - Music
 dockitems_persist: 
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
@@ -66,6 +70,7 @@ homebrew_installed_packages:
   - zsh-history-substring-search
   - kubectl
   - kubectx
+  - azure-cli
 
 homebrew_taps:
   - homebrew/core
@@ -91,6 +96,7 @@ homebrew_cask_apps:
   - bitwarden
   - signal
   - iterm2
+  - powershell
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
