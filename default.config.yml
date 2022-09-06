@@ -105,6 +105,7 @@ homebrew_cask_apps:
   - powershell
   - element
   - font-hack-nerd-font
+  - postman-agent
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
