@@ -73,6 +73,9 @@ homebrew_installed_packages:
   - kubectx
   - helm
   - azure-cli
+  - mas
+  - zsh-completions
+  - bitwarden-cli
 
 homebrew_taps:
   - homebrew/core
@@ -93,13 +96,15 @@ homebrew_cask_apps:
 #  - sublime-text
 #  - transmit
   - vagrant
-  - vmware-horizon-client
+  - vmware-horixfon-client
   - citrix-workspace
   - visual-studio-code
   - bitwarden
   - signal
   - iterm2
   - powershell
+  - element
+  - font-hack-nerd-font
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
@@ -107,6 +112,29 @@ mas_email: ""
 mas_password: ""
 
 osx_script: "~/.osx --no-restart"
+
+# gantsign.oh-my-zsh config
+# Default theme
+oh_my_zsh_theme: robbyrussell
+
+# Default plugins
+oh_my_zsh_plugins:
+  - git
+
+# Wether to install by default for all specified users.
+# May be overridden by `oh_my_zsh: install:` under each user.
+oh_my_zsh_install: yes
+
+# User configuration
+# Important: oh-my-zsh is installed per user so you need to specify the users to install it for.
+users:
+  - username: me
+    oh_my_zsh:
+      theme: robbyrussell
+      plugins:
+        - git
+        - zsh-completions
+        - zsh-syntax-highlighting
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
