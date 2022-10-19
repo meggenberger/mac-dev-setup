@@ -1,0 +1,11 @@
+---
+roles:
+  - name: elliotweiser.osx-command-line-tools
+  - name: geerlingguy.dotfiles
+  - name: gantsign.oh-my-zsh
+  
+collections:
+  - name: https://github.com/ansible-collections/community.general.git
+    type: git
+    version: main
+  - name: geerlingguy.mac
