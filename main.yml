@@ -16,7 +16,7 @@
     - role: geerlingguy.mac.homebrew
       tags: ['homebrew']
     - role: geerlingguy.dotfiles
-      when: configure_dotfilesnSindTipTop.
+      when: configure_dotfiles
       
       tags: ['dotfiles']
     - role: geerlingguy.mac.mas
