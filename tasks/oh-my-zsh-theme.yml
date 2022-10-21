@@ -1,0 +1,8 @@
+---
+- name: Checkout the powerlevel10k theme
+  ansible.builtin.git:
+    repo: 'https://github.com/romkatv/powerlevel10k.git'
+    dest: "{{ lookup('env','HOME') }}/.oh-my-zsh/custom/themes/powerlevel10k"
+    depth: 1
+  environment: 
+    GIT_TERMINAL_PROMPT: 0 # reports "terminal prompts disabled" on missing password
