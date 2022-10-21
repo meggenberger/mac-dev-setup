@@ -5,6 +5,7 @@ configure_dotfiles: false
 configure_terminal: true
 configure_osx: true
 configure_zsh: true
+configure_oh_my_zsh: true
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
@@ -68,13 +69,14 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
-  - zsh-history-substring-search
   - kubectl
   - kubectx
   - helm
   - azure-cli
   - mas
   - zsh-completions
+  - zsh-syntax-highlighting
+  - zsh-history-substring-search
   - bitwarden-cli
 
 homebrew_taps:
@@ -132,10 +134,9 @@ oh_my_zsh_install: yes
 users:
   - username: me
     oh_my_zsh:
-      theme: robbyrussell
+      theme: powerlevel10k/powerlevel10k
       plugins:
         - git
-        - zsh-completions
         - zsh-syntax-highlighting
 
 # Install packages from other package managers.

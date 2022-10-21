@@ -34,6 +34,10 @@
       when: configure_sudoers
       tags: ['sudoers']
 
+    - import_tasks: tasks/oh-my-zsh-theme.yml
+      when: configure_oh_my_zsh
+      tags: ['oh-my-zsh']
+
 #    - import_tasks: tasks/terminal.yml
 #      when: configure_terminal
 #      tags: ['terminal']
