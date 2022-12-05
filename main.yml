@@ -25,9 +25,9 @@
     - role: geerlingguy.mac.dock
       when: configure_dock
       tags: ['dock']
-    - role: gantsign.oh-my-zsh
-      when: configure_zsh
-      tags: ['zsh']
+    #- role: gantsign.oh-my-zsh
+    #  when: configure_zsh
+    #  tags: ['zsh']
 
   tasks:
     - import_tasks: tasks/sudoers.yml

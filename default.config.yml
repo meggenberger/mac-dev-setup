@@ -5,7 +5,7 @@ configure_dotfiles: false
 configure_terminal: true
 configure_osx: true
 configure_zsh: true
-configure_oh_my_zsh: true
+configure_oh_my_zsh: false
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
@@ -23,7 +23,7 @@ dockitems_remove:
 dockitems_persist: 
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
-    pos: 5
+    pos: 18
 
 configure_sudoers: false
 sudoers_custom_config: ''
@@ -77,8 +77,12 @@ homebrew_installed_packages:
   - zsh-completions
   - zsh-syntax-highlighting
   - zsh-history-substring-search
+  - zsh-autosuggestions
   - bitwarden-cli
-
+  - k9s
+  - golang
+  - rectangle
+  
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
@@ -119,11 +123,11 @@ osx_script: "~/.osx --no-restart"
 
 # gantsign.oh-my-zsh config
 # Default theme
-oh_my_zsh_theme: robbyrussell
+#oh_my_zsh_theme: robbyrussell
 
 # Default plugins
-oh_my_zsh_plugins:
-  - git
+#oh_my_zsh_plugins:
+#  - git
 
 # Wether to install by default for all specified users.
 # May be overridden by `oh_my_zsh: install:` under each user.
@@ -131,13 +135,13 @@ oh_my_zsh_install: yes
 
 # User configuration
 # Important: oh-my-zsh is installed per user so you need to specify the users to install it for.
-users:
-  - username: me
-    oh_my_zsh:
-      theme: powerlevel10k/powerlevel10k
-      plugins:
-        - git
-        - zsh-syntax-highlighting
+#users:
+#  - username: me
+#    oh_my_zsh:
+#      theme: powerlevel10k/powerlevel10k
+#      plugins:
+#        - git
+#        - zsh-syntax-highlighting
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
