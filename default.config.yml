@@ -81,8 +81,7 @@ homebrew_installed_packages:
   - bitwarden-cli
   - k9s
   - golang
-  - rectangle
-  
+
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
@@ -113,6 +112,7 @@ homebrew_cask_apps:
   - font-hack-nerd-font
   - font-cascadia-code
   - postman-agent
+  - rectangle
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
