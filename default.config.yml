@@ -20,6 +20,7 @@ dockitems_remove:
   - Pages
   - Keynote
   - Music
+  - Facetime
 dockitems_persist: 
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
@@ -81,6 +82,7 @@ homebrew_installed_packages:
   - bitwarden-cli
   - k9s
   - golang
+  - pulumi
 
 homebrew_taps:
   - homebrew/core
@@ -113,6 +115,8 @@ homebrew_cask_apps:
   - font-cascadia-code
   - postman-agent
   - rectangle
+  - obsidian
+  - steam
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
