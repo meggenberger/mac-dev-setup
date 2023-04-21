@@ -83,6 +83,7 @@ homebrew_installed_packages:
   - k9s
   - golang
   - pulumi
+  - kind
 
 homebrew_taps:
   - homebrew/core
@@ -113,10 +114,14 @@ homebrew_cask_apps:
   - element
   - font-hack-nerd-font
   - font-cascadia-code
+  - font-caskaydia-cove-nerd-font
   - postman-agent
   - rectangle
   - obsidian
   - steam
+  - insomnia
+  - obs
+  - vlc
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
