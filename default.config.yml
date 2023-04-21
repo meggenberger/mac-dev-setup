@@ -84,6 +84,7 @@ homebrew_installed_packages:
   - golang
   - pulumi
   - kind
+  - tree
 
 homebrew_taps:
   - homebrew/core
