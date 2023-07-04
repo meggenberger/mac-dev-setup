@@ -85,6 +85,10 @@ homebrew_installed_packages:
   - pulumi
   - kind
   - tree
+  - neofetch
+  - btop
+  - cmatrix
+  - neovim
 
 homebrew_taps:
   - homebrew/core
