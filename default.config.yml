@@ -7,6 +7,7 @@ configure_osx: true
 configure_zsh: true
 configure_oh_my_zsh: false
 
+
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove: 
@@ -79,6 +80,7 @@ homebrew_installed_packages:
   - zsh-syntax-highlighting
   - zsh-history-substring-search
   - zsh-autosuggestions
+
   - bitwarden-cli
   - k9s
   - golang
