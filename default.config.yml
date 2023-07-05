@@ -80,7 +80,6 @@ homebrew_installed_packages:
   - zsh-syntax-highlighting
   - zsh-history-substring-search
   - zsh-autosuggestions
-
   - bitwarden-cli
   - k9s
   - golang
@@ -91,6 +90,7 @@ homebrew_installed_packages:
   - btop
   - cmatrix
   - neovim
+  - tmux
 
 homebrew_taps:
   - homebrew/core
