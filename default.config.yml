@@ -91,6 +91,10 @@ homebrew_installed_packages:
   - cmatrix
   - neovim
   - tmux
+  - node-sass
+  - hugo
+  - wireguard-tools
+  - qrencode
 
 homebrew_taps:
   - homebrew/core
@@ -106,7 +110,6 @@ homebrew_cask_apps:
   - google-chrome
   - slack
   - vagrant
-  - vmware-horizon-client
   - citrix-workspace
   - visual-studio-code
   - bitwarden
