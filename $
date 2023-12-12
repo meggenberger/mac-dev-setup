@@ -1,0 +1,8 @@
+pinentry-program $(brew --prefix)/bin/pinentry-mac
+enable-ssh-support
+write-env-file
+use-standard-socket
+default-cache-ttl 2592000
+max-cache-ttl 259200
+debug-level basic
+log-file /Users/me/.gnupg/gpg-agent.log0
